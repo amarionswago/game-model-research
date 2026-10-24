@@ -74,6 +74,6 @@ Training used selected mathematical and coding material with qualified source so
 
 ## Authorship and licensing
 
-Amarion Fred (Park) directed this independent, AI-assisted project. AI agents contributed substantial implementation, operation, review and documentation; agent review is not external academic peer review.
+Park (@amarionfred) directed this independent, AI-assisted project. AI agents contributed substantial implementation, operation, review and documentation; agent review is not external academic peer review.
 
 Original HIVE code, documentation and released adapter contributions are offered under [MIT](LICENSE). The upstream model card declares the base model MIT; its pinned repository does not contain a separate model-specific license file. The separate upstream GLM GitHub code repository is Apache-2.0. Neither the base model nor training datasets are redistributed here, and the HIVE license does not replace third-party rights or notices. See [THIRD_PARTY.md](THIRD_PARTY.md).
