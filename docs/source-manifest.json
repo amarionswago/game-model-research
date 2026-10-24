@@ -1,0 +1,328 @@
+{
+  "schema": "hive-public-source-v1",
+  "date": "2026-10-24",
+  "base_git_commit": "e913c988c2b9d7c0c793046d3588dc2c8af7c0a6",
+  "scope": "Selected accepted research modules and their dependency closure; not a complete provider submission or standalone inference bundle.",
+  "accepted_boundaries": [
+    {
+      "name": "four-member core",
+      "receipt_sha256": "cb4b242a4c90e33c09a9726d4b39625019dec5c94d990960e1c72d2a0bdd18f1"
+    },
+    {
+      "name": "collective controller",
+      "receipt_sha256": "20d56892fd0830f730e0733575d99a1f38038b52106491e7df3e70b94cb3d123"
+    },
+    {
+      "name": "fixed16 reuse",
+      "receipt_sha256": "95342e98abb83a7329ea5af1197f38c0c43d7c16bee57a3ccd8e4467ad9887c9"
+    },
+    {
+      "name": "offline K4 admission",
+      "receipt_sha256": "9444523b02fad92e85baaa47bbc07dd3f2ebc23f5e3ca1657d28360ee120e2d2"
+    },
+    {
+      "name": "post-update trust",
+      "receipt_sha256": "8ceace47e4de942d62280dcae9387dbeaca6ff968dced48c2392276fa0d71661"
+    }
+  ],
+  "files": [
+    {
+      "path": "research_runtime/adapter_checkpoint.py",
+      "sha256": "ad2bd06f1f02185a840fda8cdc556dced308093fc3fa4f828e52dc9fd230e505",
+      "bytes": 5824,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/baseline_controller.py",
+      "sha256": "b1d607d93a704d9f8132a943fb5b4f1dda14f6a028a8804fb0f5252273f47c9d",
+      "bytes": 12065,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/canonical_gradient_reference.py",
+      "sha256": "d2383be216a94a8ae7ff61fc268f953765ede6a03402f3fa752c7adb8e1f4c5b",
+      "bytes": 27201,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/effective_state_guard.py",
+      "sha256": "c594222321bdaa4e8efa4a852cd0bf8d458a0ddfd107b3a6d33fd737c4e90d52",
+      "bytes": 25659,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/fork_inference.py",
+      "sha256": "79b78e275e0ac43706d780d270bfdb3d41e558916ba41388af1b090349875e3c",
+      "bytes": 2982,
+      "source_snapshot": "accepted-stage2-formation-v4",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/fork_recovery.py",
+      "sha256": "ce195b589f3773fe6191ce59eb8a245bd1941caae7b78f7d7dc676fe4999519c",
+      "bytes": 9715,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/formation_contract.py",
+      "sha256": "2046129536afff0a4d71672717b144737cfa7890fc4ca22a53c530d7a3408ba4",
+      "bytes": 8823,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/four_conditions.py",
+      "sha256": "6a74512af4944b57bf58b40c6f124019b88ae25a1da10aa65f240a1e85b740b1",
+      "bytes": 6253,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/gated_training.py",
+      "sha256": "c9b61607ccf3e1b0fa9444a09f9e113deb39ce50a2c3cc23da5cf9bd73f0c79e",
+      "bytes": 10216,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/gpu_loader.py",
+      "sha256": "450d22c0157788fda156f9bbb42386ad4b37fb1afe59e7765104b57546499a9c",
+      "bytes": 6964,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/gpu_policy.py",
+      "sha256": "2d4b42e9bafb376b6458f61a2087664b0a66c819d75364e313f8c09d791cec4a",
+      "bytes": 10031,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/guarded_transactions.py",
+      "sha256": "e79ae279ae288b68cc070d24ca84513a54fbf5db0947994b85a59114be8ef261",
+      "bytes": 14962,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/muon_optimizer.py",
+      "sha256": "45e800642b2df7d290d2f1da5180e158dca1cb3dcdb6cf394cc6b6a2511c1877",
+      "bytes": 2781,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/nf4_linear.py",
+      "sha256": "31f6d76d0a8455d5aa070a98f4f155e43e3132fc31cf0c7c04ac3ee49d194ff6",
+      "bytes": 5939,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/revision_objective.py",
+      "sha256": "0f1303bf3dc73735e12b27e6c4e4ddd366fadcf30855be0d1fd9c61f34630194",
+      "bytes": 18102,
+      "source_snapshot": "accepted-stage2-formation-v4",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/rl_numerics.py",
+      "sha256": "902dfdd83b3bd8904a31aca828e39bb4fc806ec0145c39dbdc6fccad050554d9",
+      "bytes": 2973,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/runtime_admission.py",
+      "sha256": "8f9afdbf71ad86d982842f179dc21fa1713e08a28297cb25d1ac37611fb914e2",
+      "bytes": 17057,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/sparse_experts.py",
+      "sha256": "35497db76b6840f7b9212765281efd87da7483793d2e112e6da25a5835a38220",
+      "bytes": 4254,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/stable_arithmetic.py",
+      "sha256": "21eb4536ad56adf30cf5a4605305ddb9fb3437fbe6c4c2cff9cbcf8e61acfdae",
+      "bytes": 4730,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "research_runtime/stream_hash.py",
+      "sha256": "ee782f558b1f5a5d81ab3839cb9ee42029056c5ab0833d0dbd3ca4860d4a0e3e",
+      "bytes": 1380,
+      "source_snapshot": "accepted-collective-helpers",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/adapter_checkpoint.py",
+      "sha256": "ad2bd06f1f02185a840fda8cdc556dced308093fc3fa4f828e52dc9fd230e505",
+      "bytes": 5824,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/adapter_stage.py",
+      "sha256": "6b0ddbce96bc21757bd83a37cd690569b0f8f3462c5426a2db8b685900c6d24f",
+      "bytes": 15813,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/adapter_training.py",
+      "sha256": "763b5dae35524b563dc36f3423a439cc727d7f85a357087157b475a8c95edf57",
+      "bytes": 9356,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/collective_admission.py",
+      "sha256": "aaa08bbe877ea9a9ade83a649fc6f3fd71951588ee552246e6c3d478bd87aa38",
+      "bytes": 9428,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/collective_contract.py",
+      "sha256": "51bbb7d57f4f7ae4382eafc1ae3a9d7346ed67a4a1382e5dc1626b1df0772203",
+      "bytes": 6031,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/collective_loader.py",
+      "sha256": "ae3068daec8aca74c89a11fcc9355a4fed72aedec743422333561153ce2dbd76",
+      "bytes": 2295,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/collective_memory.py",
+      "sha256": "c3a08466b67d9ed6831dde93568e6d9986a6f4b8435d11eb6e5598e373521193",
+      "bytes": 1603,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/collective_recovery.py",
+      "sha256": "f632da48d176ed2bb220d0484effc29a5c52693dff3d3bef23f945f851ddecfb",
+      "bytes": 4340,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/collective_reference.py",
+      "sha256": "b060d609d9e1367f85c480706ad03a62b406e1f6f5cde3a43a3aaf44b354932b",
+      "bytes": 5164,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/collective_trust.py",
+      "sha256": "c8fc07604d926219bf26d560770ec3bc487ff6107460b33da7a83e0ed085d21e",
+      "bytes": 13624,
+      "source_snapshot": "accepted-collective-trust-v2",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/collective_worker.py",
+      "sha256": "ceceebf8f0cec76e2ca3b35817399a19882898ddc92c65f1886e83d9dc6390d9",
+      "bytes": 18661,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/cooperative.py",
+      "sha256": "5ca0a3b2ccad8708da8385f3f23f30ffdd7f4c2cacf8f2663e65310109942ebb",
+      "bytes": 5407,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/decoding.py",
+      "sha256": "054f91d79cadef709637a21c1b8782fdb1a0950ca0acf2a970a7453894c295e2",
+      "bytes": 1963,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/formation_contract.py",
+      "sha256": "2046129536afff0a4d71672717b144737cfa7890fc4ca22a53c530d7a3408ba4",
+      "bytes": 8823,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/formation_worker.py",
+      "sha256": "49f074ba44ccc6919a0f60164f093242c9b69186f7f45842c1e51925ccd7a884",
+      "bytes": 27487,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/population_assembly.py",
+      "sha256": "cf0e896ec3b3e9dda034ec6a3f842a672547edc0420b96eeef7e21f5f1f182e6",
+      "bytes": 8352,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/population_fork.py",
+      "sha256": "23a661558656f59fc71a174de4a9ccf40276f9f367f478d412cf8d2bf7d7dc39",
+      "bytes": 6797,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/population_objective.py",
+      "sha256": "3fac0c2b4ec37e54fb3f0f0990117acb8652fda248dfd163d06ca723d2daaf40",
+      "bytes": 7431,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/population_runtime.py",
+      "sha256": "b41861da784848430df3949e32c0836012ca36c601f1b4bd49a2eb5b3fc734a0",
+      "bytes": 13386,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/reproducibility.py",
+      "sha256": "9b70c731944c392e2eee4cb647e27b84fff65c98e10e46b024534b0eba151763",
+      "bytes": 1185,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    },
+    {
+      "path": "swarm/run_reports.py",
+      "sha256": "9614243b29879ea629a901d3b04deda4226b68fcd0bebc440b3dc97e1f2f88d0",
+      "bytes": 1383,
+      "source_snapshot": "accepted-k4-admission-v3",
+      "modification": "none; helper directory relocated"
+    }
+  ],
+  "excluded": [
+    "private task and evaluation data",
+    "provider submission and account-specific entry scripts",
+    "unfinished learner edits",
+    "unaccepted live transport candidate"
+  ],
+  "preserved_early_model": {
+    "path": "swarm/model.py",
+    "sha256": "21faeb9cf5b12d6c55574b16c961bda3e162198163497f1dc2c7a04298a2e9e2",
+    "note": "Existing public committed implementation; separate from pretrained population modules."
+  }
+}

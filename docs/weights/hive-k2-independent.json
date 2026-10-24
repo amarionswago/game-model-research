@@ -1,0 +1,18 @@
+{
+  "file": "hive-k2-independent.safetensors",
+  "bytes": 168410164,
+  "sha256": "2d61614edf3c12765454d65b0da402176735c62d9e6c36c557d050ceaaaecfb6",
+  "source_checkpoint_sha256": "8322a030c1dc43a7a84cb5475426f6e1a2ee854a527bc70236133de83b7ff197",
+  "format": "hive-research-tensors-v1",
+  "tensor_count": 941,
+  "parameters": 42067969,
+  "dtype": "float32",
+  "member_tensors": {
+    "member0": 470,
+    "member1": 470
+  },
+  "exact_tensor_roundtrip": true,
+  "optimizer_and_rng_included": false,
+  "torch_export_version": "2.14.1+cpu",
+  "contains_k2_gate": true
+}

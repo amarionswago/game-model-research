@@ -1,0 +1,36 @@
+{
+  "schema": "hive-public-packaging-checks-v1",
+  "date": "2026-10-24",
+  "scope": "Public source packaging and fixed-tensor arithmetic only; no experiment rerun.",
+  "python": "3.14.7",
+  "environment": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.3",
+    "transformers": "5.18.0",
+    "peft": "0.21.2",
+    "bitsandbytes": "0.50.2",
+    "safetensors": "0.8.0"
+  },
+  "checks": {
+    "source_hashes_and_sizes": 41,
+    "source_syntax": 41,
+    "source_imports": 41,
+    "public_weight_receipts": 6,
+    "fixed_tensor_unit_tests_passed": 2,
+    "all_public_python_parses": true,
+    "selected_source_import_dependency_closure": true,
+    "personal_paths_or_credential_patterns_in_added_source": false
+  },
+  "source_manifest_sha256": "aa9281c1ede804739f9404347cc56d7409960c2581adecd42f23d4f2a011b742",
+  "execution": {
+    "model_constructions": 0,
+    "language_model_forward_calls": 0,
+    "optimizer_calls": 0,
+    "provider_calls": 0
+  },
+  "limitations": [
+    "No GPU/pretrained inference or portable loader validation.",
+    "Original experiment audits were not rerun.",
+    "Weight receipts summarize separately executed tensor conversion; this check does not reread downloadable weight bytes."
+  ]
+}

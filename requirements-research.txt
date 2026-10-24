@@ -1,0 +1,12 @@
+# Captured research runtime versions; select the appropriate CUDA PyTorch wheel.
+# The exact experiments used torch 2.11.0+cu128, not a CPU inference runtime.
+torch==2.11.0
+transformers==5.18.0
+peft==0.21.2
+accelerate==1.15.0
+bitsandbytes==0.50.2
+tokenizers==0.23.2
+huggingface_hub==1.31.0
+numpy>=2.3,<3
+# Public tensor inspection/export; not required by historical checkpoint loaders.
+safetensors==0.8.0

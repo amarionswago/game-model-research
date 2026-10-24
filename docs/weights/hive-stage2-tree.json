@@ -1,0 +1,18 @@
+{
+  "file": "hive-stage2-tree.safetensors",
+  "bytes": 84196488,
+  "sha256": "7f24bad8208e82f568b3419a297fa45d563c4da17b2dd0987f8c974531f10bfe",
+  "source_checkpoint_sha256": "e3d254a7fdec071c25c3ec7c5db785a565f72959cfc528daa6fc4f1e793bf0fd",
+  "format": "hive-research-tensors-v1",
+  "tensor_count": 470,
+  "parameters": 21031936,
+  "dtype": "float32",
+  "member_tensors": {
+    "member0": 470,
+    "member1": 0
+  },
+  "exact_tensor_roundtrip": true,
+  "optimizer_and_rng_included": false,
+  "torch_export_version": "2.14.1+cpu",
+  "contains_k2_gate": false
+}
